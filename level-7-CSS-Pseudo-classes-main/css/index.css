@@ -1,0 +1,18 @@
+/*------------Input Form--------*/
+form label {
+  display: block;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+form input {
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+/*---------Pseudo-classes-------*/
+
+form input:focus {
+  font-size: 20px;
+  color: green;
+}
